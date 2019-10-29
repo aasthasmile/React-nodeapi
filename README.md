@@ -1,9 +1,9 @@
 # React-nodeapi
 
 
-##Understanding of the React packages :
+## Understanding of the React packages :
 
-1. express-validator: https://express-validator.github.io/docs/
+1. [express-validator](https://express-validator.github.io/docs/) :
 It is a validator of the input elements in the api e.g. JSON Schema Validator, Custom error messages(length or max characters in a string),Sanitization methods( string notEmpty() or trim() or HTML escape() or Email isEmail() ) and Wildcards Verification.
 
     ```
@@ -25,7 +25,7 @@ Values can be set manually or automatically with defined functionality.Virtual p
 			.digest('hex');
      ```
 
-3.cookie-parser : https://www.npmjs.com/package/cookie-parser
+3. [cookie-parser](https://www.npmjs.com/package/cookie-parser)
 Cookie parse maintains the request header element 'cookie' by populating it with a secret key that can be used at the time of the signin operation by the user.
   	
 	// Parse a cookie value as a JSON cookie.
